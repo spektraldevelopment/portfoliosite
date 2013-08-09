@@ -1,11 +1,11 @@
 (function(window){
 
     //Divs
-    About.prototype.mainDiv;
-    About.prototype.panelDiv;
-    About.prototype.titleDiv;
-    About.prototype.profileImage;
-    About.prototype.aboutParagraph;
+//    About.prototype.mainDiv;
+//    About.prototype.panelDiv;
+//    About.prototype.titleDiv;
+//    About.prototype.profileImage;
+//    About.prototype.aboutParagraph;
 
     function About(data)
     {
@@ -39,7 +39,7 @@
         if(root == "localhost")
             this.profileImage.setAttribute("src", "images/profilePic.jpg");
         else
-            this.profileImage.setAttribute("src", "site/images/profilePic.jpg");
+            this.profileImage.setAttribute("src", "images/profilePic.jpg");
 
         this.aboutParagraph.appendChild(this.profileImage);
 
@@ -51,4 +51,4 @@
 
     window.About = About;
 
-}(window))
+}(window));
