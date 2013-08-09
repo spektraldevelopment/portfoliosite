@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+
+        <header>
+            <thumb><![CDATA[site/images/thumbs/intelThumb.jpg]]></thumb>
+            <thumb><![CDATA[site/images/thumbs/ipsosThumb.jpg]]></thumb>
+            <thumb><![CDATA[site/images/thumbs/scottsThumb.jpg]]></thumb>
+            <thumb><![CDATA[site/images/thumbs/unicefThumb.jpg]]></thumb>
+        </header>
+
+        <work>
+            <panel>
+                <title><![CDATA[INTEL HEMS]]></title>
+                <desc><![CDATA[The Intel HEMS (Home Energy Management System) was a prototype for demonstrating to potential clients the capabilities of a touch interface that controlled different aspects of the home. The demo was deployed on both a touch enabled netbook as well as the actual prototype itself. Working closely under the direction of Cap Gemini, I built a functional wireframe, standalone demo for deployment on the web and netbook, and integrated the portions I built with the master demo on the actual device. The result was an international campaign that promoted Intel's next generation of energy management systems.]]></desc>
+                <client><![CDATA[Cap Gemini]]></client>
+                <link><![CDATA[site/demos/hems/#]]></link>
+                <image><![CDATA[site/images/Intel/intel1.jpg]]></image>
+                <image><![CDATA[site/images/Intel/intel2.jpg]]></image>
+                <image><![CDATA[site/images/Intel/intel3.jpg]]></image>
+            </panel>
+
+            <panel>
+                <title><![CDATA[POLL PREDICTOR]]></title>
+                <desc><![CDATA[Poll Predictor was a simple yet addictive application built for Ipsos Reid, it's purpose was to engage the user while collecting valuable statistics. The application presented the user with a question that required a percentage for an answer, the user would then use a slider to indicate their answer. Working with the principal designer, I took the mockups and wireframes and created a working version of the predictor that integrated PHP on the backend. The project was a success, it was widely used and popular among Ipsos Reid users.]]></desc>
+                <client><![CDATA[Ipsos Reid]]></client>
+                <link><![CDATA[site/demos/pollpredictor/#]]></link>
+                <image><![CDATA[site/images/Ipsos/ipsos1.jpg]]></image>
+                <image><![CDATA[site/images/Ipsos/ipsos2.jpg]]></image>
+                <image><![CDATA[site/images/Ipsos/ipsos3.jpg]]></image>
+            </panel>
+
+            <panel>
+                <title><![CDATA[SCOTT'S WEED<br/>OR FLOWER]]></title>
+                <desc><![CDATA[Scotts Weed or Flower is a simple true or false game deployed to Facebook. It is part of Scotts 2012 summer campaign to promote their brand and educate users on their wide array of products. The game presented the user with different pictures of plants and asked them whether the plant was a  weed or a flower. This project required both the use of the Facebook API and a multi-table mySQL database. The client wanted the user to be able to save their progress and continue playing at any time. The result was an enjoyable experience for the user.]]></desc>
+                <client><![CDATA[Saatchi and Saatchi]]></client>
+                <link><![CDATA[https://apps.facebook.com/scottsweedorflower/]]></link>
+                <image><![CDATA[site/images/Scotts/scotts1.jpg]]></image>
+                <image><![CDATA[site/images/Scotts/scotts2.jpg]]></image>
+                <image><![CDATA[site/images/Scotts/scotts3.jpg]]></image>
+            </panel>
+
+            <panel>
+                <title><![CDATA[SLAY THE<br/>MONSTER]]></title>
+                <desc><![CDATA[Unicef's Slay The Monster was an application that ultimately allowed the user to customize a story about themselves. The purpose of the project was to promote the need for mosquito nets in third world countries, which helped reduce the risk of disease. Through a series of steps, the user was able to customize their own Nintendo-style avatar, and then insert it into the story. The story was then saved on the fly, as a PDF or the user could share their story with a friend. The project required the integration of an avatar creator and an AS3 library for saving out the story as a PDF. The result was a successful campaign that entertained and educated the user.]]></desc>
+                <client><![CDATA[Unicef]]></client>
+                <link><![CDATA[site/demos/unicef/#]]></link>
+                <image><![CDATA[site/images/Unicef/unicef1.jpg]]></image>
+                <image><![CDATA[site/images/Unicef/unicef2.jpg]]></image>
+            </panel>
+        </work>
+
+        <about><![CDATA[My name is Dave Boyle, a web developer based in Toronto.  My main focus is creating interactive, intuitive applications and interfaces for the web and mobile. I specialize in Actionscript 3, Javascript, HTML, CSS, PHP and mySQL. I have done work directly and indirectly for GM, Intel, Unicef, Coca Cola, RBC, Rogers, and the list goes on. As a developer, I have been involved in the ideation, production, and deployment of various projects ranging in size and reach. My approach to building projects is straightforward and I'm a strong believer in building things right the first time. I started my career primarily as a Flash Developer, and coming from that  background has put me in a unique position, since most of the tried and tested interactivity that was once only possible in the realm of Flash, is now available in HTML5.  In my off time I enjoy playing video games and walking dogs for the Toronto Humane Society.]]></about>
+
+        <pdf><![CDATA[site/pdf/DaveBoyle_Reference.pdf]]></pdf>
+</data>

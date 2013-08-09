@@ -1,0 +1,1 @@
+INSERT INTO `_module` (`id`, `name`, `engName`, `file`, `param`, `desc`, `type`) VALUES (NULL, 'getme', 'Get the ID of the logged in user', 'getme', 'dispfield', 'Field to display', 'A');

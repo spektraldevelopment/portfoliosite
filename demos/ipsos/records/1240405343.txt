@@ -1,0 +1,27 @@
+Ipsos Poll Predictor Report
+Report from Tuesday April 21st, 2009 (6:02) to Wednesday April 22nd, 2009 (6:02)
+
+Games Total 0
+Games Started 0
+Normal Games Started 0
+NPN Games Started 0
+Games Finished 0
+Games Finished (No Problems) 0
+Games Finished (Given Games) 0
+NPN Games Finished 0
+Total NPN Games 0
+Ipsos Poll Predictor Unfinished Games
+Report from Tuesday April 21st, 2009 (6:02) to Wednesday April 22nd, 2009 (6:02)
+
+The following users have started a game and not ended it during the above timespan
+Ipsos Poll Predictor Expired Games
+Report from Tuesday April 21st, 2009 (6:02) to Wednesday April 22nd, 2009 (6:02)
+
+This is the number of games that have expired and will be removed.
+0
+Ipsos Poll Predictor Archive
+Report from Tuesday April 21st, 2009 (6:02) to Wednesday April 22nd, 2009 (6:02)
+
+This is the CSV file of games that have been finished.
+id, uid, gid, state, datetime, survey, email, country, lang
+

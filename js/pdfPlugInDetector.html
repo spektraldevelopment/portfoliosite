@@ -1,0 +1,60 @@
+<div id="pdfPlugInDetector">
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js">
+</script>
+<script type="text/javascript" src="http://www.pinlady.net/PluginDetect/PluginDetect_AdobeReader.js"></script>
+<style>
+#pdfPlugInDetector{
+    float:right; 
+    width:200px; 
+    height:70px; 
+    border-style:solid; 
+    border-width:2px; 
+    background-color:#EEE; 
+    padding:5px; 
+    margin-left:10px; 
+    margin-bottom:10px; 
+    font-family:Verdana, Geneva, sans-serif;
+}
+#pdfPlugInDetectorIcon{ 
+    float:left; 
+    width:60px;
+    height:60px;
+}
+#pdfPlugInDetectorText{
+    float:right; 
+    width:130px;
+    height:60px;
+    text-align:left;
+    font-size:11px;
+    padding-top:2px;
+}
+#pdfPlugInDetectorVersionText{
+    font-size:9px;
+}
+</style>
+     <div id="pdfPlugInDetectorIcon"><img id="pdfPlugInDetectorIconImage"src="http://pdfdevjunkie.host.adobe.com/pdfplugindetector/ReaderWarning60.png" />
+     </div>    
+  <div id="pdfPlugInDetectorText">
+  </div>    
+</div>
+<script type="text/javascript">
+var writeStatus = function(status){
+    if (status>=0) return 'The Adobe Reader or Acrobat plugin is installed & enabled.';
+    else if (status==-0.2) return 'The Adobe Reader or Acrobat plugin is installed but not enabled.';
+    else if (status==-2) return 'Please enable ActiveX in Internet Explorer so that we can detect your plugins.';
+    else return 'The Adobe Reader or Acrobat plugin is not installed.';
+};
+var pdfDet = PluginDetect, mime, minVersion, status; 
+status = pdfDet.isMinVersion('AdobeReader', '0', "application/pdf");
+var pdfPlugInDetectorText = writeStatus(status);
+if (status>=0)
+{
+    fullVersion = pdfDet.getVersion('AdobeReader');
+    versionArray = fullVersion.split(",")
+    version = versionArray[0]+"."+versionArray[1]+"."+versionArray[2]
+    pdfPlugInDetectorText = pdfPlugInDetectorText + "<br /><span id='pdfPlugInDetectorVersionText'>Version: " + version+'</span>';
+    $("#pdfPlugInDetectorIconImage").attr("src","http://pdfdevjunkie.host.adobe.com/pdfplugindetector/ReaderCheck60.png");
+}
+$('#pdfPlugInDetectorText').append(pdfPlugInDetectorText);
+</script>
+

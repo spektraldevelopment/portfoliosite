@@ -1,0 +1,1 @@
+INSERT INTO `_module` (`id`, `name`, `engName`, `file`, `param`, `desc`, `type`) VALUES (NULL, 'seo_url', 'SEO Friendly URL', 'seoURL', 'trans|field', 'Name of the field to be translated to SEO|Field to store the SEO friendly URL in', 'A');
