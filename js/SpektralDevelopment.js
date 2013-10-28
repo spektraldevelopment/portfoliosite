@@ -659,6 +659,6 @@ function canDisplayPDF(pD)
 
 function trackGA(category, action, label)
 {
-    _gaq.push(['_trackEvent', category, action, label]);
+    //_gaq.push(['_trackEvent', category, action, label]);
     //_gaq.push(['_trackEvent', 'Videos', 'Play', 'Gone With the Wind']);
 }
